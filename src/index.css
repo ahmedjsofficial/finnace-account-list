@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 85%;
+  margin: 5vh auto 0 auto;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.label {
+  color: black !important;
+  font-size: bold !important;
+}
+.label-space {
+  width: 21%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* grid-boxs */
+.grid-box{
+  display: grid;
+  gap: 15px;
+  align-items: flex-start;
+}
